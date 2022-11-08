@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+
+/* NAV */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    flex-direction:row;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+.links{
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+}
+
+.links:hover{
+    color: rgb(113, 113, 113);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+
+/* HEADER */
+
+.header{
+    height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.801)),
+    url("../img/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.first-txt{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.polis{
+    text-decoration: none;
+    color: #fff;
+}
+.prez{
+    font-size: 7rem;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 1rem;
+}
+.main-prgh{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 2rem;
+}
+
+/* ICONS */
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    box-shadow: 1rem;
+}
+.mail{
+    width: 3.5rem;
+    margin-top: 0.6rem;
+}
+.linkedin{
+    width: 3rem;
+}
+.instagram{
+    width: 3rem;
+}
+.github{
+    width: 3rem;
+}
